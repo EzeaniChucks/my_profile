@@ -7,9 +7,9 @@ const Intro = () => {
       <h2 className="flex gap-4 text-white text-4xl">
         Hi there! <PiHandWaving className="text-orange-500" />
       </h2>
-      <h3 className="text-white max-w-[500px] text-2xl md:text-3xl font-extralight">
+      <h3 className="text-white max-w-[500px] text-xl md:text-3xl font-extralight">
         {
-          "I'm Ezeani Chukwudi, a FullStack mobile and web developer. I have created solutions relied upon by thousands of users for their daily activities."
+          "I'm Ezeani Chukwudi, an experienced FullStack mobile and web developer. I have created real-world solutions relied upon by thousands of users for their daily activities."
         }
       </h3>
       <a href="mailto:concord_chucks2@yahoo.com">
