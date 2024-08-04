@@ -1,7 +1,8 @@
 const myskills = [
   "nextjs",
-  "react",
   "react native",
+  "react",
+  "nextjs",
   "python",
   "flask",
   "express",

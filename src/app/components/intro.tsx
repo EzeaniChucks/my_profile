@@ -12,9 +12,11 @@ const Intro = () => {
           "I'm Ezeani Chukwudi, a FullStack mobile and web developer. I have created solutions relied upon by thousands of users for their daily activities."
         }
       </h3>
-      <button className="flex items-center gap-4 p-3 px-5 rounded-3xl bg-white text-black hover:text-white hover:bg-black hover:border border-white">
-        Get in Touch <BsArrowRightCircle />{" "}
-      </button>
+      <a href="mailto:concord_chucks2@yahoo.com">
+        <button className="flex items-center gap-4 p-3 px-5 rounded-3xl bg-white text-black hover:text-white hover:bg-black hover:border border-white">
+          Get in Touch <BsArrowRightCircle />{" "}
+        </button>
+      </a>
     </div>
   );
 };
