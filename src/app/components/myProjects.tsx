@@ -31,7 +31,7 @@ const myProjects = [
 const MyProjects = () => {
   return (
     <div className="flex flex-col gap-4 items-center justify-center self-center p-3 md:p-10">
-      <h3 className="text-white self-start">My Projects</h3>
+      <h3 className="text-white self-start">PROJECTS</h3>
       <div className="flex items-center justify-center flex-wrap gap-10 p-5">
         {myProjects?.map((eachProject, i: number) => {
           return (

@@ -12,11 +12,13 @@ export default function Home() {
       {/* top nav */}
       <Nav />
 
-      {/* intro */}
-      <Intro />
+      <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
+        {/* intro */}
+        <Intro />
 
-      {/* array of my skills */}
-      <MySkills />
+        {/* array of my skills */}
+        <MySkills />
+      </div>
 
       {/* array of screenshots */}
       <MyProjects />
